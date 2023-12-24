@@ -1,0 +1,189 @@
+
+
+
+h2 {
+    color: #8B7969;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 972px;
+    height: 606px;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.form__label--item {
+    font-size: 15px;
+    color: #8B7969;
+
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #FF9494;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: none;
+    background-color: #f1ececaf;
+    appearance: none;
+}
+
+
+.form__input--text input {
+    height: 40px;
+    color: #8B7969;
+
+}
+
+.form__input--textarea textarea {
+    height: 130px;
+    resize: none;
+}
+
+
+.form__input--name {
+    margin: -15px;
+    color: #e7730e;
+
+}
+
+.form__input--text-list-li,
+.form__input--text-list-last {
+    display: inline-block;
+
+}
+
+.form__input--text-list-li input {
+    margin-right: 42px;
+    background-color: #f1ececaf;
+    padding: 10px;
+    width: 280px;
+    border: 1px solid #ddd;
+    appearance: none;
+    border: none;
+}
+
+.form__input--text-list-last input {
+    margin-right: 10px;
+    background-color: #F4F4F4;
+    padding: 10px;
+    width: 280px;
+    border: none;
+    appearance: none;
+}
+
+::placeholder {
+    color: #BEB1A6;
+    font-size: 14px;
+
+
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #ccc
+}
+
+input[type="radio"]:checked {
+    border-color: #8B7969;
+    background-color: #8B7969;
+}
+
+
+
+.form__input--radio {
+    margin-right: 390px;
+    color: #a69b9b;
+    font-size: 18px;
+}
+
+.form__input--radio input {
+    display: inline-block;
+    color: #584646;
+
+}
+
+.form__input--tel-number {
+    color: #726c6c;
+
+}
+
+.form__input--tel-number input {
+    width: 185px;
+    padding: 10px;
+    margin-right: 7px;
+    border: 1px solid #ddd;
+    background-color: #f1ececaf;
+    border: none;
+    appearance: none;
+
+}
+
+
+.create-form__item-select {
+    width: 380px;
+    padding: 10px;
+    background-color: #f1ececaf;
+    border: none;
+    appearance: none;
+    margin-right: 220px;
+    color: #BEB1A6;
+    text-align: left;
+}
+
+
+
+.form__button {
+    text-align: center;
+
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #82756A;
+    font-size: 20px;
+
+}
